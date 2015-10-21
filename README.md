@@ -70,13 +70,17 @@ The guidelines help the snap of the next polygons to be created around or clorse
 ### Corner conversion to curve 
 
 Select the polygon
+
 ![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0853.png)
 
 Select the vertice
+
 ![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0854.png)
 
 Enter the curve distance
+
 ![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0854_001.png)
 
 See the results
+
 ![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0854_002.png)
