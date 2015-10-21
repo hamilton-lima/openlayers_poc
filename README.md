@@ -61,10 +61,10 @@ This is one example of the plugins loaded
 ## Screenshots
 
 Showing distance on lines and area of the polygon
-http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0819.png
+!(http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0819.png)
 
 Parallel guidelines add to help snap of the next polygons
-http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0820.png
+!(http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0820.png)
 
 Corner converted to curve 
-http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0821.png
+!(http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0821.png)
