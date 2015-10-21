@@ -1,0 +1,17 @@
+[
+    {
+        "key": "edit",
+        "description": "Permite edição do objeto selecionado",
+        "iconclass": "icon-tasks"
+    },
+    {
+        "key": "navigate",
+        "description": "Permite navegar no mapa sem editar",
+        "iconclass": "icon-tasks"
+    },
+    {
+        "key": "polygon",
+        "description": "Permite adicionar poligono ao mapa",
+        "iconclass": "icon-tasks"
+    }
+]
