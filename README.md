@@ -60,11 +60,23 @@ This is one example of the plugins loaded
 
 ## Screenshots
 
-Showing distance on lines and area of the polygon
-![show distance](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0819.png)
+### Showing distance on lines and area of the polygon
+![show distance](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0847.png)
 
-Parallel guidelines add to help snap of the next polygons
+### Parallel guidelines 
+The guidelines help the snap of the next polygons to be created around or clorse to the original one
 ![parallel guidelines](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0820.png)
 
-Corner converted to curve 
-![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0821.png)
+### Corner conversion to curve 
+
+Select the polygon
+![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0853.png)
+
+Select the vertice
+![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0854.png)
+
+Enter the curve distance
+![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0854_001.png)
+
+See the results
+![conversion to curve](http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0854_002.png)
