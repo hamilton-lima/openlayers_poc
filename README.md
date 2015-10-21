@@ -1,10 +1,10 @@
-# openlayers_poc
+# Openlayers POC
 
 See live demo here http://hamilton-lima.github.io/openlayers_poc/
 
 Some highlights of this demo : 
 
-!!Plugin structure
+## Plugin structure
 Each page loads a different set of plugins defined in a json file.
 The json to be loaded is defined here :
 
@@ -42,7 +42,7 @@ This is one example of the plugins loaded
 ]
 ```
 
-All the plugins are in the folder [mc-plugin](https://github.com/hamilton-lima/openlayers_poc/tree/master/mc-plugin)
+:tangerine: All the plugins are in the folder [mc-plugin](https://github.com/hamilton-lima/openlayers_poc/tree/master/mc-plugin)
 
 !Some plugins details 
 
@@ -52,3 +52,4 @@ All the plugins are in the folder [mc-plugin](https://github.com/hamilton-lima/o
 | [edit-add-guidelines](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/edit-add-guidelines.js) | add parallel guide lines around the selected geometry | 
 | [edit-convert2curve](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/edit-convert2curve.js) | convert one line to a curve |
 | [view-fullscreen](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/view-fullscreen.js) | change the view to full screen mode | 
+
