@@ -54,7 +54,17 @@ This is one example of the plugins loaded
 | edit-show-are-distance | setup to show line distances and area calculation inside polygons | 
 | edit-add-* | add polygon, line and point based on openlayers examples | 
 | [edit-modify-meter](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/edit-modify-meter.js) | change the distance of a selected line |
-| [edit-add-guidelines](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/edit-add-guidelines.js) | add parallel guide lines around the selected geometry | 
-| [edit-convert2curve](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/edit-convert2curve.js) | convert one line to a curve |
+| [edit-add-guidelines](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/edit-add-guidelines.js) | add parallel guide lines around the selected geometry, the user can input the distance in meters of the guide lines | 
+| [edit-convert2curve](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/edit-convert2curve.js) | convert one line to a curve, the user an input the width of the curve that will be generated |
 | [view-fullscreen](https://github.com/hamilton-lima/openlayers_poc/blob/master/mc-plugin/view-fullscreen.js) | change the view to full screen mode | 
 
+## Screenshots
+
+Showing distance on lines and area of the polygon
+http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0819.png
+
+Parallel guidelines add to help snap of the next polygons
+http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0820.png
+
+Corner converted to curve 
+http://hamilton-lima.github.io/openlayers_poc/screenshots/2015-10-21_0821.png
