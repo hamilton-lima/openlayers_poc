@@ -49,7 +49,7 @@ This is one example of the plugins loaded
 | open-layers | load the core openlayers framework, load by the plugin control to be able to change versions in the future |
 | empty | example of empty plugin |
 | map-wms | example of an plugin that loads data from an geoserver in the format wms |
-| map-osm | loads openstreet map mapa data |
+| map-osm | loads openstreet-map map data |
 | setup-center-* | center the projection in a specific longitude/latitude |
 | edit-show-are-distance | setup to show line distances and area calculation inside polygons | 
 | edit-add-* | add polygon, line and point based on openlayers examples | 
