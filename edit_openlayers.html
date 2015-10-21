@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GEO - poc openlayers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="vacavitoria">
+
+<link rel="stylesheet" href="poc-openlayers.css" type="text/css">
+<link rel="stylesheet" href="theme/default/style.css" type="text/css">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<script src="OpenLayers.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap-transition.js"></script>
+<script src="js/bootstrap-alert.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/bootstrap-dropdown.js"></script>
+<script src="js/bootstrap-scrollspy.js"></script>
+<script src="js/bootstrap-tab.js"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script src="js/bootstrap-popover.js"></script>
+<script src="js/bootstrap-button.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/bootstrap-typeahead.js"></script>
+
+<script type="text/javascript">
+	var map;
+
+	function eventTileloaded(evt) {
+		console.log(evt.tile.url);
+	}
+
+	function eventLoadEnd(evt) {
+		console.log('--- LOAD ENDED');
+	}
+
+	function init() {
+
+		map = new OpenLayers.Map("map");
+		var mapnik = new OpenLayers.Layer.OSM();
+		var fromProjection = new OpenLayers.Projection("EPSG:4326"); // Transform from WGS 1984
+		var toProjection = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+		var position = new OpenLayers.LonLat(-43.179402, -22.910096).transform(
+				fromProjection, toProjection);
+		var zoom = 15;
+
+		var vlayer = new OpenLayers.Layer.Vector("Editable");
+		var editors = new OpenLayers.Control.EditingToolbar(vlayer)
+
+		map.addLayer(mapnik);
+		map.addLayer(vlayer);
+		map.addControl(editors);
+
+		map.setCenter(position, zoom);
+	}
+</script>
+
+</head>
+
+<body onload="init()">
+
+	<!-- Part 1: Wrap all page content here -->
+	<div id="wrap">
+
+		<!-- Begin page content -->
+		<div class="container">
+			<div class="page-header">
+				<h1>Openlayers é seu amigo.</h1>
+			</div>
+			<p class="lead">Prova de conceito de openlayers.</p>
+
+			<div id="map" class="smallmap"></div>
+
+		</div>
+	</div>
+
+</body>
+</html>
